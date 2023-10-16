@@ -1,0 +1,15 @@
+.video{
+    float: left;
+    height: 400px;
+}
+.list{
+    float: left;
+    width: 400px;
+    height: 400px;
+    overflow:scroll
+}
+.li{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+}

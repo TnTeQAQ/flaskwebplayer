@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/index.css')}}">
+</head>
+<body>
+    <video class="video" controls="controls">
+        <source src="/static/小迪/{{name}}" type="video/mp4" />
+    </video>
+    <div class="list">
+        {% for i in list %}
+        <a class="li" href="/video/{{i}}">{{i}}</a><br>
+        {% endfor %}
+    </div>
+
+</body>
+</html>
